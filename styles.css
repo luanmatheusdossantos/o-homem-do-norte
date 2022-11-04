@@ -6,113 +6,9 @@ header {
 .caixa {
     width: 800px;
     margin: auto;
-    position: center;a {
-46
-  color: blue;
-47
-  font-size: 20px;
-48
-  text-decoration: none;
-49
-}
-50
-​
-51
-main {
-52
-  width: 700px;
-53
-  margin: auto;
-54
-}
-55
-​
-56
-h1 {
-57
-  font-size: 50px;
-58
-  text-align: center;
-59
-}
-60
-​
-61
-.banner-principal {
-62
-  width: 500px;
-63
-  margin-top: 50px;
-64
-  box-shadow: 3px 2px 3px 2px;
-65
-}
-66
-​
-67
-.paragrafos {
-68
-  border: 1px solid black;
-69
-  border-radius: 20px;
-70
-}
-71
-​
-72
-p {
-73
-  text-align: center;
-74
-  font-weight: bold;
-75
-  text-transform: uppercase;
-76
-  padding: 5px;
-77
-}
-78
-​
-79
-h2 {
-80
-  text-align: center;
-81
-  font-size: 20px;
-82
-  font-weight: bold;
-83
-}
-84
-​
-85
-.bandeira {
-86
-  box-shadow: 1px 2px 1px 2px;
-87
-  width: 400px;
-88
-}
-89
-​
-90
-.botão {
-91
-  font-size: 30px;
-92
-  color: red;
-93
-  padding: 5px;
-94
-  border: 2px solid black;
-95
-  border-radius: 20px;
-96
-}
-97
-
+    position: relative;
     border: 3px solid black;
-    border-radius: 20px;
+    border-radius: 20px ;
 }
 
 #banner {
@@ -155,12 +51,82 @@ nav ul li a:hover {
     text-transform: uppercase;
 }
 
-main {
+h1 {
+    text-align: center;
+    background: grey;
+    display: block;
+}
+
+.classificacao {
+    width: 700px;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#class {
+    width: 700px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    background: gray;
+}
+
+.caixa-jogadores {
     width: 800px;
+    height: 100%;
     margin: auto;
 }
 
-#bandeira {
-    width: 100%;
-    margin-top: 100px;
+
+.lista-jogadores {
+    width: 115px;
+    height: 250px;
+    vertical-align: top;
+    display: inline-block;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 15px;
+    background: linear-gradient(white, grey, white);
+}
+
+.lista-jogadores:hover {
+    border: 2px solid yellow;
+    border-radius: 0px;
+    transition: 1s;
+    background: linear-gradient(grey, white, grey);
+}
+
+.lista-jogadores p {
+    text-align: center;
+}
+
+.img-jogador {
+    width: 100px;
+    height: 140px;
+    border-radius: 20px;
+}
+
+
+#h3 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    background: grey;
+}
+
+#img {
+    text-align: center;
+}
+
+.img-brasão {
+    width: 300px;
+}
+
+.foto-jogadores {
+    width: 500px;
 }
