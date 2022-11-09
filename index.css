@@ -8,7 +8,7 @@ header {
     margin: auto;
     position: relative;
     border: 3px solid black;
-    border-radius: 20px ;
+    border-radius: 20px;
 }
 
 #banner {
@@ -51,38 +51,12 @@ nav ul li a:hover {
     text-transform: uppercase;
 }
 
-h1 {
-    text-align: center;
-    background: grey;
-    display: block;
-}
-
-.classificacao {
-    width: 700px;
-    margin: auto;
-    border: 5px solid black;
-    border-radius: 10px;
-}
-
-#class {
-    width: 700px;
-}
-
-h2 {
-    font-size: 30px;
-    text-align: center;
-    background: gray;
-}
-
-.caixa {
+main {
     width: 800px;
-    height: 100%;
     margin: auto;
 }
 
-#h3 {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 30px;
-    background: grey;
+#bandeira {
+    width: 100%;
+    margin-top: 100px;
 }
