@@ -17,7 +17,7 @@ header {
 
 nav {
     display: inline-block;
-    position: absolute;
+    position: initial;
     top: 100px;
     right: 20px;
 }
@@ -59,4 +59,11 @@ main {
 #bandeira {
     width: 100%;
     margin-top: 100px;
+}
+
+img {
+    
+width: 620px;
+padding: 10%;
+
 }
